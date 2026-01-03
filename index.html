@@ -3,9 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shiva Sai</title>
+    <style>
+        /* Reset default margin/padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            display: flex;
+            justify-content: center;  /* horizontal center */
+            align-items: center;      /* vertical center */
+            height: 100vh;            /* full viewport height */
+            background: linear-gradient(135deg, #6a11cb, #2575fc); /* gradient background */
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Name styling */
+        .name {
+            color: white;
+            font-size: 4rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* subtle shadow */
+            padding: 20px 40px;
+            border: 2px solid white;
+            border-radius: 15px;
+            background-color: rgba(255,255,255,0.1); /* semi-transparent background */
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        /* Hover effect */
+        .name:hover {
+            transform: scale(1.1);
+            background-color: rgba(255,255,255,0.2);
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <h1>Shiva sai</h1>
+    <div class="name">Shiva Sai</div>
 </body>
 </html>
